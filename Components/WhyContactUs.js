@@ -26,7 +26,7 @@ export default function WhyContactUs() {
             <div className="flex gap-4 items-start flex-col rounded-lg lg:rounded-xl  border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10  rounded-full flex justify-center">
                 {/* //<TechnicalImg className="h-8 w-8" /> */}
-                <Image src={TechnicalImg}
+                <Image src={TechnicalImg} alt="hero"
                 className="h-12 w-12"/>
               </span>
               <div>
@@ -40,7 +40,7 @@ export default function WhyContactUs() {
 
             <div className="flex gap-4 items-start flex-col rounded-lg lg:rounded-xl  border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10  rounded-full flex justify-center">
-              <Image src={BusinessImg}
+              <Image src={BusinessImg} alt="hero"
                 className="h-12 w-12"/>
               </span>
               <div>
@@ -58,7 +58,7 @@ export default function WhyContactUs() {
 
             <div className="flex gap-4 items-start flex-col rounded-lg lg:rounded-xl  border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10  rounded-full flex justify-center">
-              <Image src={ProcessImg}
+              <Image src={ProcessImg} alt="hero"
                 className="h-12 w-12"/>
               </span>
               <div>
@@ -75,7 +75,7 @@ export default function WhyContactUs() {
             </div>
             <div className="flex gap-4 items-start flex-col rounded-lg lg:rounded-xl  border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10  rounded-full flex justify-center">
-              <Image src={SupportImg}
+              <Image src={SupportImg} alt="hero"
                 className="h-12 w-12"/>
               </span>
               <div>
@@ -89,7 +89,7 @@ export default function WhyContactUs() {
             </div>
             <div className="flex gap-4 items-start flex-col rounded-lg lg:rounded-xl  border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10 p-3 rounded-full flex justify-center">
-              <Image src={InnovationImg}
+              <Image src={InnovationImg} alt="hero"
                 className="h-12 w-12"/>
               </span>
               <div>
@@ -103,7 +103,7 @@ export default function WhyContactUs() {
             </div>
             <div className="flex gap-4 items-start flex-col rounded-lg lg:rounded-xl  border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10  rounded-full flex justify-center">
-              <Image src={ScalabilityImg}
+              <Image src={ScalabilityImg} alt="hero"
                 className="h-12 w-12"/>
               </span>
               <div>

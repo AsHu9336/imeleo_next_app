@@ -22,7 +22,7 @@ export default function Services() {
           <div className="grid md:grid-cols-3 max-w-screen-lg mx-auto gap-6 mt-16 px-5">
             <div className="flex gap-4 items-start justify-center flex-col  rounded-xl lg:rounded-xl border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10  rounded-full flex justify-center">
-              <Image src={WebImg}
+              <Image alt="hero" src={WebImg}
                 className="h-12 w-12"/>
               </span>
               <div>
@@ -40,7 +40,7 @@ export default function Services() {
 
             <div className="flex gap-4 items-start justify-center flex-col  rounded-xl lg:rounded-xl border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10  rounded-full flex justify-center">
-                <Image src={AppImg}
+                <Image alt="hero" src={AppImg}
                 className="h-12 w-12"/>
               </span>
               <div>
@@ -57,7 +57,7 @@ export default function Services() {
             </div>
             <div className="flex gap-4 items-start justify-center flex-col  rounded-xl lg:rounded-xl border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10  rounded-full flex justify-center">
-                <Image src={ITImg}
+                <Image alt="hero" src={ITImg}
                 className="h-12 w-12"/>
               </span>
               <div>
@@ -75,7 +75,7 @@ export default function Services() {
 
             <div className="flex gap-4 items-start justify-center flex-col  rounded-xl lg:rounded-xl border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10  rounded-full flex justify-center">
-                <Image src={WebImg}
+                <Image alt="hero" src={WebImg}
                 className="h-12 w-12"/>
               </span>
               <div>
@@ -92,7 +92,7 @@ export default function Services() {
             </div>
             <div className="flex gap-4 items-start justify-center flex-col  rounded-xl lg:rounded-xl border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10  rounded-full flex justify-center">
-                <Image src={CloudImg}
+                <Image alt="hero" src={CloudImg}
                 className="h-12 w-12"/>
               </span>
               <div>
@@ -109,7 +109,7 @@ export default function Services() {
             </div>
             <div className="flex gap-4 items-start justify-center flex-col  rounded-xl lg:rounded-xl border-2 border-blue-500 p-6">
               <span className="text-violet-600 bg-violet-500/10  rounded-full flex justify-center">
-                <Image src={WebImg}
+                <Image alt="hero" src={WebImg}
                 className="h-12 w-12"/>
               </span>
               <div>

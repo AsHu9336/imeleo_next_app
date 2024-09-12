@@ -18,9 +18,9 @@ export default function About() {
 
         <div class="container gap-10 flex px-5 py-12 md:flex-row flex-col items-start">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pl-16">
-            <Image
+            <Image alt="hero"
               class="object-cover object-center rounded w-full h-full"
-              alt="hero"
+              // alt="hero"
               src={AboutImg}
             />
           </div>
@@ -37,19 +37,19 @@ export default function About() {
             </p>
             <div class="flex flex-col justify-start">
               <div class="flex items-start px-5 py-2">
-                <Image src={VectorImg} className="shadow-sm rounded-md mr-2" />
+                <Image alt="hero" src={VectorImg} className="shadow-sm rounded-md mr-2" />
                 <h2 className="text-3xl font-semibold text-gray-800 mb-2 text-center">
                   Problem Solving
                 </h2>
               </div>
               <div class="flex items-start px-5 py-2 ">
-                <Image src={VectorImg} className="shadow-sm rounded-md mr-2" />
+                <Image alt="hero" src={VectorImg} className="shadow-sm rounded-md mr-2" />
                 <h2 className="text-3xl font-semibold text-gray-800 mb-2 text-center">
                   Strategic Growth
                 </h2>
               </div>
               <div class="flex items-start px-5 py-2 ">
-                <Image src={VectorImg} className="shadow-sm rounded-md mr-2" />
+                <Image alt="hero" src={VectorImg} className="shadow-sm rounded-md mr-2" />
                 <h2 className="text-3xl font-semibold text-gray-800 mb-2 text-center">
                   Enhanced Performance
                 </h2>
