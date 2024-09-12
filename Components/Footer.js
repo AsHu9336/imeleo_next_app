@@ -4,6 +4,9 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
+import { IoCallOutline } from "react-icons/io5";
+import { MdOutlineMail } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
 export default function Footer() {
   return (
     <>
@@ -18,6 +21,14 @@ export default function Footer() {
               <h1 className="text-2xl text-white font-semibold">
                 Solutions And Services
               </h1>
+              <div className="flex flex-row mt-4">
+                <FaFacebook className="w-8 h-8 mr-4 fill-white" />
+                <FaLinkedin className="w-8 h-8 mr-4 fill-white" />
+                <FaInstagram className="w-8 h-8 mr-4 fill-white" />
+
+                <FaYoutube className="w-8 h-8 mr-4 fill-white" />
+                <FaXTwitter className="w-8 h-8 mr-4  fill-white" />
+              </div>
             </div>
 
             <div className="lg:mx-auto text-left ">
@@ -176,26 +187,37 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className="lg:mx-auto text-left">
-              <h4 className="text-lg text-white font-medium mb-7">Follow Us</h4>
-              <div className="flex flex-row">
-                <FaFacebook className="w-8 h-8 mr-2 fill-white" />
-                <FaLinkedin className="w-8 h-8 mr-2 fill-white" />
-                <FaInstagram className="w-8 h-8 mr-2 fill-white" />
-              </div>
-              <div className="flex flex-row mt-2">
-                <FaYoutube className="w-8 h-8 mr-2 fill-white"  />
-                <FaXTwitter className="w-8 h-8 mr-2  fill-white" />
-              </div>
+            <div className="lg:mx-auto text-left text-white">
+              <h4 className="text-lg text-white font-medium mb-7">Contact</h4>
+              <ul className="text-sm  transition-all duration-500">
+                <li className="mb-6 flex">
+                 <IoCallOutline className="fill-white h-6 w-6 mr-2"/>
+                 +91-8873-33-8873
+                  
+                </li>
+                <li className="mb-6 flex">
+                  <MdOutlineMail className="fill-white h-6 w-6 mr-2"/>
+                  contact@imeleo.com
+                  
+                </li>
+                <li className="mb-6 flex">
+                <IoLocationOutline className="fill-white h-6 w-6 mr-2"/>
+                Noida, Uttar Pradesh
+                 
+                </li>
+              </ul>
             </div>
           </div>
 
-          <div className="py-7 border-t border-gray-200">
+          <div className="py-7 border-gray-200">
             <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
               <span className="text-sm text-white ">
-                © 2023 <a href="https://pagedone.io/">Imeleo</a> 2024, All
+                © 2023 Imeleo 2024, All
                 rights reserved.
               </span>
+              <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
+                <h1 className="text-l text-white ">Privacy policy | Terms & Conditions</h1>
+              </div>
               <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                 <h1 className="text-l text-white ">info@imeleo.com</h1>
               </div>

@@ -6,6 +6,7 @@ import Founder from "@/Components/Founder";
 import About from "@/Components/About";
 import Contact from "@/Components/Contact";
 import Footer from "@/Components/Footer";
+import Blogs from "@/Components/Blogs";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroSection/>
       <Solutions/>
       <Services/>
+      <Blogs/>
       <About/>
       <Founder/>
       <WhyContactUs/>

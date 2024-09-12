@@ -1,20 +1,31 @@
 import React from "react";
 import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
+import Image from "next/image";
+import ContactImg from "../assets/images/Contact.png";
 export default function Contact() {
   return (
+
+
+
+
     <>
-      <section class="py-8 md:py-16 lg:py-24">
-        <h2 className="text-4xl font-semibold text-blue-800 mb-8 text-center">
+      <section class="py-8 md:py-16 lg:py-16 bg-gray-50">
+        <h2 className="text-4xl font-semibold text-blue-800 mb-2  text-center">
           Contact Us
         </h2>
-        <div class="w-full max-w-6xl mx-auto px-4 sm:px-6 md:px-8 relative">
-          <div class="shadow rounded-xl">
-            <div class="grid  text-white shadow-xl md:grid-cols-2 bg-blue-800 rounded-xl">
+        <p class="text-gray-500 text-3xl  md:text-2xl lg:text-sm text-center mb-16">
+          Reach out to discuss how we can transform your business with <br/> tailored 
+          solutions and expert support.
+        </p>
+        <div class="w-full max-w-6xl mx-auto py-8 lg:py-8 px-4 sm:px-6 md:px-8 relative ">
+          <div class="shadow rounded-3xl">
+            <div class="grid  text-white shadow-xl md:grid-cols-2 bg-blue-800 rounded-3xl">
               <aside class="relative hidden md:block">
-                <img
-                  class="absolute inset-0 object-cover object-left-top w-full h-full mt-16 -mr-16 rounded-tl-lg"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/business-woman.png"
+                <Image
+                  //className="absolute inset-x-0  object-cover object-left-top w-full h-120   -mr-16 rounded-tl-lg"
+                  className="absolute bottom-0 pl-10"
+                  src={ContactImg}
                   alt="Discover our beautiful panel"
                 />
               </aside>
@@ -33,7 +44,8 @@ export default function Contact() {
                     <IoCallOutline className="w-6 h-6 mr-2" /> +91-8873-33-8873
                   </div>
                   <div className="flex flex-row items-center text-xl">
-                    <MdOutlineMail className=" w-6 h-6 mr-2" /> contact@imeleo.com
+                    <MdOutlineMail className=" w-6 h-6 mr-2" />{" "}
+                    contact@imeleo.com
                   </div>
                 </div>
 
